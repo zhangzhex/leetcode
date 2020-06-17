@@ -16,6 +16,7 @@
 		144B983324420542003B5364 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144B983224420542003B5364 /* main.cpp */; };
 		144B983C24420768003B5364 /* 88-合并两个有序数组.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144B983B24420768003B5364 /* 88-合并两个有序数组.cpp */; };
 		144B983E24420E91003B5364 /* 75_颜色分类.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 144B983D24420E91003B5364 /* 75_颜色分类.cpp */; };
+		14820A55249A6FFC005E60A3 /* 3_无重复字符的最长子串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14820A54249A6FFC005E60A3 /* 3_无重复字符的最长子串.cpp */; };
 		1495B4C9246C2D6700F95169 /* 2_两数相加.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1495B4C8246C2D6700F95169 /* 2_两数相加.cpp */; };
 		14E93F44247D73D200E2C8A2 /* 654_最大二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E93F43247D73D200E2C8A2 /* 654_最大二叉树.cpp */; };
 		14EC3A4E244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14EC3A4D244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp */; };
@@ -50,6 +51,7 @@
 		144B983224420542003B5364 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		144B983B24420768003B5364 /* 88-合并两个有序数组.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "88-合并两个有序数组.cpp"; sourceTree = "<group>"; };
 		144B983D24420E91003B5364 /* 75_颜色分类.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "75_颜色分类.cpp"; sourceTree = "<group>"; };
+		14820A54249A6FFC005E60A3 /* 3_无重复字符的最长子串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "3_无重复字符的最长子串.cpp"; sourceTree = "<group>"; };
 		1495B4C8246C2D6700F95169 /* 2_两数相加.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2_两数相加.cpp"; sourceTree = "<group>"; };
 		14E93F43247D73D200E2C8A2 /* 654_最大二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "654_最大二叉树.cpp"; sourceTree = "<group>"; };
 		14EC3A4D244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题 16_16 部分排序.cpp"; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				85768479248FD2A900B0EC39 /* 572_另一个树的子树.cpp */,
 				8576847B24913BB400B0EC39 /* 242_有效的字母异位词.cpp */,
 				85BCD9262497D1750021A47D /* 151_翻转字符串里的单词.cpp */,
+				14820A54249A6FFC005E60A3 /* 3_无重复字符的最长子串.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				8576847A248FD2A900B0EC39 /* 572_另一个树的子树.cpp in Sources */,
 				144B983C24420768003B5364 /* 88-合并两个有序数组.cpp in Sources */,
 				14EC3A4E244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp in Sources */,
+				14820A55249A6FFC005E60A3 /* 3_无重复字符的最长子串.cpp in Sources */,
 				140B435A2486875D00C4DDB9 /* 739_每日温度.cpp in Sources */,
 				140745D324741AB6008602BC /* 234_回文链表.cpp in Sources */,
 				85BCD9272497D1750021A47D /* 151_翻转字符串里的单词.cpp in Sources */,

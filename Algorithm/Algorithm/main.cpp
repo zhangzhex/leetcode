@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <string>
+#include <map>
 
 using namespace std;
 
@@ -64,23 +65,14 @@ public:
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    TreeNode *root = new TreeNode(10);
-    TreeNode *left = new TreeNode(9);
-    TreeNode *right = new TreeNode(8);
-    root->left = left;
-    root->right = right;
+    map<char, int> mapString;
+    mapString['a'] = 1;
     
-    
-    Solution slu;
-    
-//    string str = to_string(10);
-    
-    string str = slu.treeToString(root);
- 
-//    if (NULL == NULL ) {
-//    std::cout << "equeal";
-//    }
-    
-    std::cout << str;
+    map<char, int>::iterator iter = mapString.find('b');
+    if(iter != mapString.end()) {
+        cout<<"Find, the value is "<<iter->second<<endl;
+    }
+          
+        cout << mapString['b'] << endl;
     return 0;
 }
