@@ -16,9 +16,28 @@ using namespace std;
 class Solution {
 public:
     /**
+     *思路：优化空间复杂度，把二维数组替换成一维数组。实现滚动数组的效果
+     */
+    int maxValue(vector<vector<int>>& grid) {
+        uint64_t row = grid.size();
+        uint64_t col = grid[0].size();
+        
+        vector<int> dp(col+1, 0);
+        for (int i = 1; i <= row; i++) {
+            for (int j = 1; j <= col; j++) {
+                dp[j] = max(dp[j], dp[j-1]) + grid[i-1][j-1];
+            }
+        }
+        
+        return dp[col];
+    }
+    
+    
+    /**
      *思路：1、利用动态规划思想，建立m*n的二维数组，第0行和第0列的每个元素可以得出固定值
      *2、其他位置元素通过求最大值得到，（每次向右或向下移动意味着当前位置g[a][b]的最大值 = Max(g[a-1][b], g[a][b-1]) + v[a][b]
      */
+    /*
     int maxValue(vector<vector<int>>& grid) {
         uint64_t row = grid.size();
         uint64_t col = grid[0].size();
@@ -46,4 +65,5 @@ public:
         
         return value[row-1][col-1];
     }
+     */
 };
