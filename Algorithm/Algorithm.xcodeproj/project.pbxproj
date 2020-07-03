@@ -32,6 +32,7 @@
 		85768478248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85768477248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp */; };
 		8576847A248FD2A900B0EC39 /* 572_另一个树的子树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85768479248FD2A900B0EC39 /* 572_另一个树的子树.cpp */; };
 		8576847C24913BB400B0EC39 /* 242_有效的字母异位词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8576847B24913BB400B0EC39 /* 242_有效的字母异位词.cpp */; };
+		85A90A1224AF814D00E12E40 /* 53_最大子序和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A90A1124AF814D00E12E40 /* 53_最大子序和.cpp */; };
 		85BCD9272497D1750021A47D /* 151_翻转字符串里的单词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BCD9262497D1750021A47D /* 151_翻转字符串里的单词.cpp */; };
 		85CA54F2249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85CA54F1249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		85768477248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题 01_09_ 字符串轮转.cpp"; sourceTree = "<group>"; };
 		85768479248FD2A900B0EC39 /* 572_另一个树的子树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "572_另一个树的子树.cpp"; sourceTree = "<group>"; };
 		8576847B24913BB400B0EC39 /* 242_有效的字母异位词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "242_有效的字母异位词.cpp"; sourceTree = "<group>"; };
+		85A90A1124AF814D00E12E40 /* 53_最大子序和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "53_最大子序和.cpp"; sourceTree = "<group>"; };
 		85BCD9262497D1750021A47D /* 151_翻转字符串里的单词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "151_翻转字符串里的单词.cpp"; sourceTree = "<group>"; };
 		85CA54F1249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "121_买卖股票的最佳时机.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 				1498F0BB24A89B9700F10081 /* 72_编辑距离.cpp */,
 				1498F42F24A8F29200F10081 /* 5_最长回文子串.cpp */,
 				854E987324ACE1AA001E980E /* 1143_最长公共子序列.cpp */,
+				85A90A1124AF814D00E12E40 /* 53_最大子序和.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				85CA54F2249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp in Sources */,
 				8576847C24913BB400B0EC39 /* 242_有效的字母异位词.cpp in Sources */,
 				1434585A246D86060079B93B /* 160_相交链表.cpp in Sources */,
+				85A90A1224AF814D00E12E40 /* 53_最大子序和.cpp in Sources */,
 				14A17D2C24A5F13E001CCC5D /* 322_零钱兑换.cpp in Sources */,
 				1498ED4624A86DC200F10081 /* 64_最小路径和.cpp in Sources */,
 				14EC53E8247C1DAF00B65186 /* 239_滑动窗口最大值.cpp in Sources */,
