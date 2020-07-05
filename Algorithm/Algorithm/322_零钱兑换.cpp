@@ -16,6 +16,9 @@ class Solution {
 public:
     /**
      *思路：递推思想，从总额=1开始计算所需硬币个数，逐个推导出总额=amount时所需硬币个数
+     *1. dp[i] 表示凑成总额i时最少硬币个数
+     *2. 状态转移方程, 假设硬币面额有 1、5、10
+     *  2.1 dp[i] = min(dp[i - 1], dp[i - 5], dp[i - 10]) + 1
      */
     int coinChange(vector<int>& coins, int amount) {
         if (amount == 0) {
