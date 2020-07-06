@@ -25,7 +25,7 @@ public:
             return -1;
         }
         
-        vector<int> dp = vector<int>(amount+1);  //每个数组元素表示凑成总金额dp[i]所需的最少的硬币个数
+        vector<int> dp = vector<int>(amount+1);  //每个数组元素dp[i]表示凑成总金额i所需的最少的硬币个数
         for (int i = 1; i <= amount; i++) {
             int min = INT_MAX;
             for (int j = 0; j < coins.size(); j++) {
