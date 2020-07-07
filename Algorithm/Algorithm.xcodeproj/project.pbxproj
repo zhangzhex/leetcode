@@ -40,6 +40,9 @@
 		85A90A1224AF814D00E12E40 /* 53_最大子序和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A90A1124AF814D00E12E40 /* 53_最大子序和.cpp */; };
 		85BCD9272497D1750021A47D /* 151_翻转字符串里的单词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BCD9262497D1750021A47D /* 151_翻转字符串里的单词.cpp */; };
 		85CA54F2249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85CA54F1249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp */; };
+		85F7EAE224B4C72C008B2991 /* 674_最长连续递增序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F7EAE124B4C72C008B2991 /* 674_最长连续递增序列.cpp */; };
+		85F7EAE424B4CB50008B2991 /* 63_不同路径 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F7EAE324B4CB50008B2991 /* 63_不同路径 II.cpp */; };
+		85F7EAE624B4D0C6008B2991 /* 122_买卖股票的最佳时机 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F7EAE524B4D0C6008B2991 /* 122_买卖股票的最佳时机 II.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +92,9 @@
 		85A90A1124AF814D00E12E40 /* 53_最大子序和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "53_最大子序和.cpp"; sourceTree = "<group>"; };
 		85BCD9262497D1750021A47D /* 151_翻转字符串里的单词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "151_翻转字符串里的单词.cpp"; sourceTree = "<group>"; };
 		85CA54F1249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "121_买卖股票的最佳时机.cpp"; sourceTree = "<group>"; };
+		85F7EAE124B4C72C008B2991 /* 674_最长连续递增序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "674_最长连续递增序列.cpp"; sourceTree = "<group>"; };
+		85F7EAE324B4CB50008B2991 /* 63_不同路径 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "63_不同路径 II.cpp"; sourceTree = "<group>"; };
+		85F7EAE524B4D0C6008B2991 /* 122_买卖股票的最佳时机 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "122_买卖股票的最佳时机 II.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,9 @@
 				85A48CA224B375ED001CA490 /* 70_爬楼梯.cpp */,
 				85A48CA424B3794C001CA490 /* 198_打家劫舍.cpp */,
 				85A48CA624B38932001CA490 /* 213_打家劫舍 II.cpp */,
+				85F7EAE124B4C72C008B2991 /* 674_最长连续递增序列.cpp */,
+				85F7EAE324B4CB50008B2991 /* 63_不同路径 II.cpp */,
+				85F7EAE524B4D0C6008B2991 /* 122_买卖股票的最佳时机 II.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -236,6 +245,8 @@
 				8576847C24913BB400B0EC39 /* 242_有效的字母异位词.cpp in Sources */,
 				1434585A246D86060079B93B /* 160_相交链表.cpp in Sources */,
 				85A90A1224AF814D00E12E40 /* 53_最大子序和.cpp in Sources */,
+				85F7EAE624B4D0C6008B2991 /* 122_买卖股票的最佳时机 II.cpp in Sources */,
+				85F7EAE224B4C72C008B2991 /* 674_最长连续递增序列.cpp in Sources */,
 				14A17D2C24A5F13E001CCC5D /* 322_零钱兑换.cpp in Sources */,
 				1498ED4624A86DC200F10081 /* 64_最小路径和.cpp in Sources */,
 				14EC53E8247C1DAF00B65186 /* 239_滑动窗口最大值.cpp in Sources */,
@@ -243,6 +254,7 @@
 				14DCDDC824B0AE9F002E9BBA /* 300_最长上升子序列.cpp in Sources */,
 				144B983E24420E91003B5364 /* 75_颜色分类.cpp in Sources */,
 				1498F0BC24A89B9700F10081 /* 72_编辑距离.cpp in Sources */,
+				85F7EAE424B4CB50008B2991 /* 63_不同路径 II.cpp in Sources */,
 				85A48CA324B375ED001CA490 /* 70_爬楼梯.cpp in Sources */,
 				854E987424ACE1AA001E980E /* 1143_最长公共子序列.cpp in Sources */,
 				14F205E7248DFD5A0023F308 /* 42_接雨水.cpp in Sources */,
