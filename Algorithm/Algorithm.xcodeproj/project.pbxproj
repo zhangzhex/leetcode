@@ -26,6 +26,9 @@
 		14A17D2C24A5F13E001CCC5D /* 322_零钱兑换.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A17D2B24A5F13E001CCC5D /* 322_零钱兑换.cpp */; };
 		14DCDDC624B09D8D002E9BBA /* 面试题 08_11_硬币.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DCDDC524B09D8D002E9BBA /* 面试题 08_11_硬币.cpp */; };
 		14DCDDC824B0AE9F002E9BBA /* 300_最长上升子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DCDDC724B0AE9F002E9BBA /* 300_最长上升子序列.cpp */; };
+		14DCE27724B9A3190067EB9D /* 673_最长递增子序列的个数.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DCE27624B9A3190067EB9D /* 673_最长递增子序列的个数.cpp */; };
+		14DCE27924B9B0090067EB9D /* 1235_规划兼职工作.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DCE27824B9B0090067EB9D /* 1235_规划兼职工作.cpp */; };
+		14DCE27B24BA01AD0067EB9D /* 236_二叉树的最近公共祖先.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14DCE27A24BA01AD0067EB9D /* 236_二叉树的最近公共祖先.cpp */; };
 		14E93F44247D73D200E2C8A2 /* 654_最大二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E93F43247D73D200E2C8A2 /* 654_最大二叉树.cpp */; };
 		14EC3A4E244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14EC3A4D244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp */; };
 		14EC53E8247C1DAF00B65186 /* 239_滑动窗口最大值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14EC53E7247C1DAF00B65186 /* 239_滑动窗口最大值.cpp */; };
@@ -78,6 +81,9 @@
 		14A17D2B24A5F13E001CCC5D /* 322_零钱兑换.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "322_零钱兑换.cpp"; sourceTree = "<group>"; };
 		14DCDDC524B09D8D002E9BBA /* 面试题 08_11_硬币.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题 08_11_硬币.cpp"; sourceTree = "<group>"; };
 		14DCDDC724B0AE9F002E9BBA /* 300_最长上升子序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "300_最长上升子序列.cpp"; sourceTree = "<group>"; };
+		14DCE27624B9A3190067EB9D /* 673_最长递增子序列的个数.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "673_最长递增子序列的个数.cpp"; sourceTree = "<group>"; };
+		14DCE27824B9B0090067EB9D /* 1235_规划兼职工作.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1235_规划兼职工作.cpp"; sourceTree = "<group>"; };
+		14DCE27A24BA01AD0067EB9D /* 236_二叉树的最近公共祖先.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "236_二叉树的最近公共祖先.cpp"; sourceTree = "<group>"; };
 		14E93F43247D73D200E2C8A2 /* 654_最大二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "654_最大二叉树.cpp"; sourceTree = "<group>"; };
 		14EC3A4D244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题 16_16 部分排序.cpp"; sourceTree = "<group>"; };
 		14EC53E7247C1DAF00B65186 /* 239_滑动窗口最大值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "239_滑动窗口最大值.cpp"; sourceTree = "<group>"; };
@@ -163,6 +169,9 @@
 				85F7EAE124B4C72C008B2991 /* 674_最长连续递增序列.cpp */,
 				85F7EAE324B4CB50008B2991 /* 63_不同路径 II.cpp */,
 				85F7EAE524B4D0C6008B2991 /* 122_买卖股票的最佳时机 II.cpp */,
+				14DCE27624B9A3190067EB9D /* 673_最长递增子序列的个数.cpp */,
+				14DCE27824B9B0090067EB9D /* 1235_规划兼职工作.cpp */,
+				14DCE27A24BA01AD0067EB9D /* 236_二叉树的最近公共祖先.cpp */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -225,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1406F80D2469921E0031ACDE /* 203_移除链表元素.cpp in Sources */,
+				14DCE27B24BA01AD0067EB9D /* 236_二叉树的最近公共祖先.cpp in Sources */,
 				1498F43124A8F29200F10081 /* 5_最长回文子串.cpp in Sources */,
 				14E93F44247D73D200E2C8A2 /* 654_最大二叉树.cpp in Sources */,
 				1442F1F32477E2EC0076C484 /* 155_最小栈.cpp in Sources */,
@@ -236,6 +246,7 @@
 				14EC3A4E244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp in Sources */,
 				85A48CA724B38932001CA490 /* 213_打家劫舍 II.cpp in Sources */,
 				14820A55249A6FFC005E60A3 /* 3_无重复字符的最长子串.cpp in Sources */,
+				14DCE27724B9A3190067EB9D /* 673_最长递增子序列的个数.cpp in Sources */,
 				140B435A2486875D00C4DDB9 /* 739_每日温度.cpp in Sources */,
 				14DCDDC624B09D8D002E9BBA /* 面试题 08_11_硬币.cpp in Sources */,
 				140745D324741AB6008602BC /* 234_回文链表.cpp in Sources */,
@@ -252,6 +263,7 @@
 				14EC53E8247C1DAF00B65186 /* 239_滑动窗口最大值.cpp in Sources */,
 				1495B4C9246C2D6700F95169 /* 2_两数相加.cpp in Sources */,
 				14DCDDC824B0AE9F002E9BBA /* 300_最长上升子序列.cpp in Sources */,
+				14DCE27924B9B0090067EB9D /* 1235_规划兼职工作.cpp in Sources */,
 				144B983E24420E91003B5364 /* 75_颜色分类.cpp in Sources */,
 				1498F0BC24A89B9700F10081 /* 72_编辑距离.cpp in Sources */,
 				85F7EAE424B4CB50008B2991 /* 63_不同路径 II.cpp in Sources */,
