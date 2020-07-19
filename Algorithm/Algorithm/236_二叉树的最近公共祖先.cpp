@@ -19,7 +19,7 @@ struct TreeNode {
 class Solution {
 public:
     /**
-     *思路: 类似与后续递归，
+     *思路: 类似于后序递归，
      *终止条件之一：root == null || p == root || q == root
      *
      */

@@ -1,15 +1,16 @@
+
+
 //
-//  main.cpp
+//  98_验证二叉搜索树.cpp
 //  Algorithm
 //
-//  Created by zack on 2020/4/11.
+//  Created by zack on 2020/7/18.
 //  Copyright © 2020 zack. All rights reserved.
 //
 
-#include <iostream>
-#include <string>
-#include <map>
+#include <stdio.h>
 #include <vector>
+#include <stack>
 
 using namespace std;
 
@@ -31,8 +32,9 @@ public:
             if (i == 0) {
                 pre = nodes[i];
             } else {
-                if (nodes[i] <= pre) return false;
-                pre = nodes[i];
+                if (nodes[i] <= pre) {
+                    return false;
+                }
             }
         }
         
@@ -48,23 +50,3 @@ public:
         inorderTraversel(root->right);
     }
 };
-
-
-
-
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    
-    TreeNode *root = new TreeNode(5);
-    TreeNode *left = new TreeNode(1);
-    TreeNode *right = new TreeNode(4);
-    root->left = left;
-    root->right = right;
-    
-    Solution solu;
-    solu.isValidBST(root);
-          
-//        cout <<"value="<< a << endl;
-    return 0;
-}
