@@ -22,31 +22,25 @@ struct TreeNode {
 
 class Solution {
 public:
-    vector<int> nodes;
-    bool isValidBST(TreeNode* root) {
-        inorderTraversel(root);
-        
-        int pre = 0;
-        for (int i = 0; i < nodes.size() ; i++) {
-            if (i == 0) {
-                pre = nodes[i];
-            } else {
-                if (nodes[i] <= pre) return false;
-                pre = nodes[i];
+        vector<int> twoSum(vector<int>& nums, int target) {
+            vector<int> result;
+            map<int, int> m;
+            
+            for (int i = 0; i < nums.size(); i++) {
+                int dif = target - nums[i];
+    //            if (dif < 0) continue;
+                map<int, int>::iterator iter = m.find(dif);
+                if (iter != m.end()) {
+                    result.push_back(m[dif]);
+                    result.push_back(i);
+                    break;
+                } else {
+                    m[nums[i]] = i;
+                }
             }
+            
+            return result;
         }
-        
-        return true;
-    }
-    
-    void inorderTraversel(TreeNode* root) {
-        if (root == NULL) {
-            return;
-        }
-        inorderTraversel(root->left);
-        nodes.push_back(root->val);
-        inorderTraversel(root->right);
-    }
 };
 
 
@@ -55,15 +49,10 @@ public:
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    
-    TreeNode *root = new TreeNode(5);
-    TreeNode *left = new TreeNode(1);
-    TreeNode *right = new TreeNode(4);
-    root->left = left;
-    root->right = right;
-    
+
     Solution solu;
-    solu.isValidBST(root);
+    vector<int> v = {2, 7, 11, 15};
+    solu.twoSum(v, 9);
           
 //        cout <<"value="<< a << endl;
     return 0;
