@@ -50,6 +50,8 @@ public:
 int main(int argc, const char * argv[]) {
     // insert code here...
 
+    int a = -4 >> 1;
+    
     Solution solu;
     vector<int> v = {2, 7, 11, 15};
     solu.twoSum(v, 9);
