@@ -17,7 +17,7 @@ public:
         
         string s = s1.append(s1);
         string::size_type idx = s.find(s2);
-        if (idx == string::npos) return false;
+        if (idx == string::npos)     return false;
         return true;
     }
 };

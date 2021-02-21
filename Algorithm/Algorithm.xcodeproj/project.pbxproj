@@ -59,6 +59,11 @@
 		14EC3A4E244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14EC3A4D244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp */; };
 		14EC53E8247C1DAF00B65186 /* 239_滑动窗口最大值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14EC53E7247C1DAF00B65186 /* 239_滑动窗口最大值.cpp */; };
 		14F205E7248DFD5A0023F308 /* 42_接雨水.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14F205E6248DFD5A0023F308 /* 42_接雨水.cpp */; };
+		14FE465E25E11F5E00546429 /* 151 翻转字符串里的单词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FE465D25E11F5E00546429 /* 151 翻转字符串里的单词.cpp */; };
+		14FE466125E20EC200546429 /* 3 无重复字符的最长子串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FE466025E20EC200546429 /* 3 无重复字符的最长子串.cpp */; };
+		14FE466425E2446C00546429 /* 剑指 Offer 47 礼物的最大价值.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FE466325E2446C00546429 /* 剑指 Offer 47 礼物的最大价值.cpp */; };
+		14FE466925E24E2A00546429 /* 121 买卖股票的最佳时机.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FE466825E24E2A00546429 /* 121 买卖股票的最佳时机.cpp */; };
+		14FE466C25E2AF9A00546429 /* 72  编辑距离.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FE466B25E2AF9A00546429 /* 72  编辑距离.cpp */; };
 		8509336724C5FF0200A1167F /* 46_全排列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8509336624C5FF0200A1167F /* 46_全排列.cpp */; };
 		854E987424ACE1AA001E980E /* 1143_最长公共子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 854E987324ACE1AA001E980E /* 1143_最长公共子序列.cpp */; };
 		85768478248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85768477248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp */; };
@@ -149,6 +154,11 @@
 		14EC3A4D244B31D2002BF0C6 /* 面试题 16_16 部分排序.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题 16_16 部分排序.cpp"; sourceTree = "<group>"; };
 		14EC53E7247C1DAF00B65186 /* 239_滑动窗口最大值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "239_滑动窗口最大值.cpp"; sourceTree = "<group>"; };
 		14F205E6248DFD5A0023F308 /* 42_接雨水.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "42_接雨水.cpp"; sourceTree = "<group>"; };
+		14FE465D25E11F5E00546429 /* 151 翻转字符串里的单词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "151 翻转字符串里的单词.cpp"; sourceTree = "<group>"; };
+		14FE466025E20EC200546429 /* 3 无重复字符的最长子串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "3 无重复字符的最长子串.cpp"; sourceTree = "<group>"; };
+		14FE466325E2446C00546429 /* 剑指 Offer 47 礼物的最大价值.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 47 礼物的最大价值.cpp"; sourceTree = "<group>"; };
+		14FE466825E24E2A00546429 /* 121 买卖股票的最佳时机.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "121 买卖股票的最佳时机.cpp"; sourceTree = "<group>"; };
+		14FE466B25E2AF9A00546429 /* 72  编辑距离.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "72  编辑距离.cpp"; sourceTree = "<group>"; };
 		8509336624C5FF0200A1167F /* 46_全排列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "46_全排列.cpp"; sourceTree = "<group>"; };
 		854E987324ACE1AA001E980E /* 1143_最长公共子序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1143_最长公共子序列.cpp"; sourceTree = "<group>"; };
 		85768477248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题 01_09_ 字符串轮转.cpp"; sourceTree = "<group>"; };
@@ -187,6 +197,7 @@
 		14315D5C25D81C4500FC0B16 /* 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				14FE466625E2447700546429 /* 动态规划 */,
 				147B976925DE6ED00065BA6F /* 字符串 */,
 				14315D7D25DA6B3A00FC0B16 /* 栈_队列 */,
 				14315D6C25D8F96100FC0B16 /* 链表 */,
@@ -325,8 +336,20 @@
 			children = (
 				147B976A25DE6EE70065BA6F /* 面试题 01 09  字符串轮转.cpp */,
 				147B976E25DE73DC0065BA6F /* 572 另一个树的子树.cpp */,
+				14FE465D25E11F5E00546429 /* 151 翻转字符串里的单词.cpp */,
+				14FE466025E20EC200546429 /* 3 无重复字符的最长子串.cpp */,
 			);
 			path = "字符串";
+			sourceTree = "<group>";
+		};
+		14FE466625E2447700546429 /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				14FE466325E2446C00546429 /* 剑指 Offer 47 礼物的最大价值.cpp */,
+				14FE466825E24E2A00546429 /* 121 买卖股票的最佳时机.cpp */,
+				14FE466B25E2AF9A00546429 /* 72  编辑距离.cpp */,
+			);
+			path = "动态规划";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,6 +414,7 @@
 				1498F43124A8F29200F10081 /* 5_最长回文子串.cpp in Sources */,
 				85EA1E9D24BCB6EC00E46E14 /* 99_恢复二叉搜索树.cpp in Sources */,
 				14E93F44247D73D200E2C8A2 /* 654_最大二叉树.cpp in Sources */,
+				14FE466C25E2AF9A00546429 /* 72  编辑距离.cpp in Sources */,
 				14315D6E25D90E7200FC0B16 /* 203 移除链表元素.cpp in Sources */,
 				1442F1F32477E2EC0076C484 /* 155_最小栈.cpp in Sources */,
 				140745D12472CAF5008602BC /* 86_分隔链表.cpp in Sources */,
@@ -410,9 +434,11 @@
 				14DCE27724B9A3190067EB9D /* 673_最长递增子序列的个数.cpp in Sources */,
 				140B435A2486875D00C4DDB9 /* 739_每日温度.cpp in Sources */,
 				14315D7825D967E900FC0B16 /* 86 分隔链表.cpp in Sources */,
+				14FE465E25E11F5E00546429 /* 151 翻转字符串里的单词.cpp in Sources */,
 				14DCDDC624B09D8D002E9BBA /* 面试题 08_11_硬币.cpp in Sources */,
 				140745D324741AB6008602BC /* 234_回文链表.cpp in Sources */,
 				85BCD9272497D1750021A47D /* 151_翻转字符串里的单词.cpp in Sources */,
+				14FE466125E20EC200546429 /* 3 无重复字符的最长子串.cpp in Sources */,
 				8509336724C5FF0200A1167F /* 46_全排列.cpp in Sources */,
 				85768478248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp in Sources */,
 				85CA54F2249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp in Sources */,
@@ -440,6 +466,7 @@
 				14315D8325DA7B6300FC0B16 /* 239 滑动窗口最大值.cpp in Sources */,
 				14DCE27924B9B0090067EB9D /* 1235_规划兼职工作.cpp in Sources */,
 				144B983E24420E91003B5364 /* 75_颜色分类.cpp in Sources */,
+				14FE466425E2446C00546429 /* 剑指 Offer 47 礼物的最大价值.cpp in Sources */,
 				1498F0BC24A89B9700F10081 /* 72_编辑距离.cpp in Sources */,
 				147B976B25DE6EE70065BA6F /* 面试题 01 09  字符串轮转.cpp in Sources */,
 				85F7EAE424B4CB50008B2991 /* 63_不同路径 II.cpp in Sources */,
@@ -453,6 +480,7 @@
 				14315D7B25D96CB200FC0B16 /* 234 回文链表.cpp in Sources */,
 				14315D7225D912B900FC0B16 /* 2 两数相加.cpp in Sources */,
 				1498ED4824A8749400F10081 /* 62_不同路径.cpp in Sources */,
+				14FE466925E24E2A00546429 /* 121 买卖股票的最佳时机.cpp in Sources */,
 				14315D7525D9199E00FC0B16 /* 160 相交链表.cpp in Sources */,
 				14315D8025DA6ECC00FC0B16 /* 155 最小栈.cpp in Sources */,
 				14DF4B1A24C4363000769F04 /* 102_二叉树的层序遍历.cpp in Sources */,

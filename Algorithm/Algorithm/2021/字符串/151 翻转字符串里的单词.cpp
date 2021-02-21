@@ -1,15 +1,13 @@
 //
-//  main.cpp
+//  151 翻转字符串里的单词.cpp
 //  Algorithm
 //
-//  Created by zack on 2020/4/11.
-//  Copyright © 2020 zack. All rights reserved.
+//  Created by zack on 2021/2/20.
+//  Copyright © 2021 zack. All rights reserved.
 //
 
-#include <iostream>
+#include <stdio.h>
 #include <string>
-#include <map>
-#include <vector>
 
 using namespace std;
 
@@ -52,25 +50,14 @@ public:
         return string(s, 0, len);
     }
     // [l, r)
-    void reverse(string &s, int l, int r) {
+    void reverse(string s, int l, int r) {
         r--;
         while (l < r) {
             char temp = s[l];
             s[l] = s[r];
             s[r] = temp;
             l++;
-            r--;
+            r++;
         }
-        cout << "ddd" << endl;
     }
 };
-
-
-int main(int argc, const char * argv[]) {
- 
-    Solution solu;
-    string sr = "hi wo shi";
-    solu.reverseWords(sr);
-    
-    return 0;
-}
