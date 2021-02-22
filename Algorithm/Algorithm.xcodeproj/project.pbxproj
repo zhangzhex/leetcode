@@ -74,6 +74,7 @@
 		858FEA4624D1D64B00436891 /* 50_Pow(x, n).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858FEA4524D1D64B00436891 /* 50_Pow(x, n).cpp */; };
 		8590495A24E2F1A500959443 /* 剑指 Offer 62_圆圈中最后剩下的数字.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8590495924E2F1A500959443 /* 剑指 Offer 62_圆圈中最后剩下的数字.cpp */; };
 		8590495C24E4375000959443 /* 54_螺旋矩阵.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8590495B24E4375000959443 /* 54_螺旋矩阵.cpp */; };
+		8596E2B325E409CD00509FBF /* 5 最长回文子串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8596E2B225E409CD00509FBF /* 5 最长回文子串.cpp */; };
 		85A48CA324B375ED001CA490 /* 70_爬楼梯.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A48CA224B375ED001CA490 /* 70_爬楼梯.cpp */; };
 		85A48CA524B3794C001CA490 /* 198_打家劫舍.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A48CA424B3794C001CA490 /* 198_打家劫舍.cpp */; };
 		85A48CA724B38932001CA490 /* 213_打家劫舍 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A48CA624B38932001CA490 /* 213_打家劫舍 II.cpp */; };
@@ -169,6 +170,7 @@
 		858FEA4524D1D64B00436891 /* 50_Pow(x, n).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "50_Pow(x, n).cpp"; sourceTree = "<group>"; };
 		8590495924E2F1A500959443 /* 剑指 Offer 62_圆圈中最后剩下的数字.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 62_圆圈中最后剩下的数字.cpp"; sourceTree = "<group>"; };
 		8590495B24E4375000959443 /* 54_螺旋矩阵.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "54_螺旋矩阵.cpp"; sourceTree = "<group>"; };
+		8596E2B225E409CD00509FBF /* 5 最长回文子串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5 最长回文子串.cpp"; sourceTree = "<group>"; };
 		85A48CA224B375ED001CA490 /* 70_爬楼梯.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "70_爬楼梯.cpp"; sourceTree = "<group>"; };
 		85A48CA424B3794C001CA490 /* 198_打家劫舍.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "198_打家劫舍.cpp"; sourceTree = "<group>"; };
 		85A48CA624B38932001CA490 /* 213_打家劫舍 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "213_打家劫舍 II.cpp"; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 				14FE466325E2446C00546429 /* 剑指 Offer 47 礼物的最大价值.cpp */,
 				14FE466825E24E2A00546429 /* 121 买卖股票的最佳时机.cpp */,
 				14FE466B25E2AF9A00546429 /* 72  编辑距离.cpp */,
+				8596E2B225E409CD00509FBF /* 5 最长回文子串.cpp */,
 			);
 			path = "动态规划";
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				85F7EAE624B4D0C6008B2991 /* 122_买卖股票的最佳时机 II.cpp in Sources */,
 				85D9FF5224CDDBD400A4C00A /* 283_移动零.cpp in Sources */,
 				85F7EAE224B4C72C008B2991 /* 674_最长连续递增序列.cpp in Sources */,
+				8596E2B325E409CD00509FBF /* 5 最长回文子串.cpp in Sources */,
 				14DF4B1124C2C9E500769F04 /* 98_验证二叉搜索树.cpp in Sources */,
 				14DF4B0F24C2C0FF00769F04 /* 94_二叉树的中序遍历.cpp in Sources */,
 				14DF4B1E24C49E4800769F04 /* 17_电话号码的字母组合.cpp in Sources */,
