@@ -80,6 +80,8 @@
 		85A48CA724B38932001CA490 /* 213_打家劫舍 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A48CA624B38932001CA490 /* 213_打家劫舍 II.cpp */; };
 		85A90A1224AF814D00E12E40 /* 53_最大子序和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A90A1124AF814D00E12E40 /* 53_最大子序和.cpp */; };
 		85BCD9272497D1750021A47D /* 151_翻转字符串里的单词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BCD9262497D1750021A47D /* 151_翻转字符串里的单词.cpp */; };
+		85C8B9E225E6A544001F69F6 /* 236 二叉树的最近公共祖先.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85C8B9E125E6A544001F69F6 /* 236 二叉树的最近公共祖先.cpp */; };
+		85C8B9E625E7F385001F69F6 /* 99 恢复二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85C8B9E525E7F385001F69F6 /* 99 恢复二叉搜索树.cpp */; };
 		85CA54F2249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85CA54F1249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp */; };
 		85D9FF5224CDDBD400A4C00A /* 283_移动零.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D9FF5124CDDBD400A4C00A /* 283_移动零.cpp */; };
 		85D9FF5424CDE38100A4C00A /* 1_两数之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D9FF5324CDE38100A4C00A /* 1_两数之和.cpp */; };
@@ -176,6 +178,8 @@
 		85A48CA624B38932001CA490 /* 213_打家劫舍 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "213_打家劫舍 II.cpp"; sourceTree = "<group>"; };
 		85A90A1124AF814D00E12E40 /* 53_最大子序和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "53_最大子序和.cpp"; sourceTree = "<group>"; };
 		85BCD9262497D1750021A47D /* 151_翻转字符串里的单词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "151_翻转字符串里的单词.cpp"; sourceTree = "<group>"; };
+		85C8B9E125E6A544001F69F6 /* 236 二叉树的最近公共祖先.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "236 二叉树的最近公共祖先.cpp"; sourceTree = "<group>"; };
+		85C8B9E525E7F385001F69F6 /* 99 恢复二叉搜索树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "99 恢复二叉搜索树.cpp"; sourceTree = "<group>"; };
 		85CA54F1249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "121_买卖股票的最佳时机.cpp"; sourceTree = "<group>"; };
 		85D9FF5124CDDBD400A4C00A /* 283_移动零.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "283_移动零.cpp"; sourceTree = "<group>"; };
 		85D9FF5324CDE38100A4C00A /* 1_两数之和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1_两数之和.cpp"; sourceTree = "<group>"; };
@@ -199,6 +203,7 @@
 		14315D5C25D81C4500FC0B16 /* 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				85C8B9E425E7F374001F69F6 /* 二叉树 */,
 				14FE466625E2447700546429 /* 动态规划 */,
 				147B976925DE6ED00065BA6F /* 字符串 */,
 				14315D7D25DA6B3A00FC0B16 /* 栈_队列 */,
@@ -355,6 +360,15 @@
 			path = "动态规划";
 			sourceTree = "<group>";
 		};
+		85C8B9E425E7F374001F69F6 /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				85C8B9E125E6A544001F69F6 /* 236 二叉树的最近公共祖先.cpp */,
+				85C8B9E525E7F385001F69F6 /* 99 恢复二叉搜索树.cpp */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -468,6 +482,7 @@
 				14DCDDC824B0AE9F002E9BBA /* 300_最长上升子序列.cpp in Sources */,
 				8590495C24E4375000959443 /* 54_螺旋矩阵.cpp in Sources */,
 				14315D8325DA7B6300FC0B16 /* 239 滑动窗口最大值.cpp in Sources */,
+				85C8B9E625E7F385001F69F6 /* 99 恢复二叉搜索树.cpp in Sources */,
 				14DCE27924B9B0090067EB9D /* 1235_规划兼职工作.cpp in Sources */,
 				144B983E24420E91003B5364 /* 75_颜色分类.cpp in Sources */,
 				14FE466425E2446C00546429 /* 剑指 Offer 47 礼物的最大价值.cpp in Sources */,
@@ -486,6 +501,7 @@
 				1498ED4824A8749400F10081 /* 62_不同路径.cpp in Sources */,
 				14FE466925E24E2A00546429 /* 121 买卖股票的最佳时机.cpp in Sources */,
 				14315D7525D9199E00FC0B16 /* 160 相交链表.cpp in Sources */,
+				85C8B9E225E6A544001F69F6 /* 236 二叉树的最近公共祖先.cpp in Sources */,
 				14315D8025DA6ECC00FC0B16 /* 155 最小栈.cpp in Sources */,
 				14DF4B1A24C4363000769F04 /* 102_二叉树的层序遍历.cpp in Sources */,
 				858FEA4424D1CD9300436891 /* 15_三数之和.cpp in Sources */,
