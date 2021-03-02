@@ -1,14 +1,12 @@
 //
-//  main.cpp
+//  46 全排列.cpp
 //  Algorithm
 //
-//  Created by zack on 2020/4/11.
-//  Copyright © 2020 zack. All rights reserved.
+//  Created by 熊章哲 on 2021/3/2.
+//  Copyright © 2021 zack. All rights reserved.
 //
 
-#include <iostream>
-#include <string>
-#include <map>
+#include <stdio.h>
 #include <vector>
 
 using namespace std;
@@ -30,28 +28,22 @@ public:
         return result;
     }
     void dfs(int i, vector<int>& nums, vector<vector<int>> &result) {
+        // 最后一层为结果
         if (i == nums.size()) {
             vector<int> vec(arr);
             result.push_back(vec);
             return;
         }
         
+        //遍历当前所有情况
         for (int j = 0; j < nums.size(); j++) {
+            // 标记使用过
             if (flag[j] == 1) continue;
             arr[i] = nums[j];
             flag[j] = 1;
             
             dfs(i+1, nums, result);
-            flag[j] = 0;
+            flag[j] = 0;//返回上一层恢复标记位
         }
     }
 };
-
-int main(int argc, const char * argv[]) {
- 
-    Solution solu;
-    vector<int> a{1, 2};
-    solu.permute(a);
-    
-    return 0;
-}
