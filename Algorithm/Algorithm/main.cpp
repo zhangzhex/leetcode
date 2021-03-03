@@ -49,6 +49,10 @@ public:
 
 int main(int argc, const char * argv[]) {
  
+    vector<int> arr;
+    
+
+    
     Solution solu;
     vector<int> a{1, 2};
     solu.permute(a);

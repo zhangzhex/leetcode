@@ -77,6 +77,8 @@
 		8596E2B325E409CD00509FBF /* 5 最长回文子串.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8596E2B225E409CD00509FBF /* 5 最长回文子串.cpp */; };
 		85A2D0AA25ED3FBC000F7D0C /* 17 电话号码的字母组合.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D0A925ED3FBC000F7D0C /* 17 电话号码的字母组合.cpp */; };
 		85A2D0AE25EE94A5000F7D0C /* 46 全排列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D0AD25EE94A5000F7D0C /* 46 全排列.cpp */; };
+		85A2D0B125EFBD50000F7D0C /* 22 括号生成.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D0B025EFBD50000F7D0C /* 22 括号生成.cpp */; };
+		85A2D0B425EFC5BF000F7D0C /* 113 路径总和 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A2D0B325EFC5BF000F7D0C /* 113 路径总和 II.cpp */; };
 		85A48CA324B375ED001CA490 /* 70_爬楼梯.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A48CA224B375ED001CA490 /* 70_爬楼梯.cpp */; };
 		85A48CA524B3794C001CA490 /* 198_打家劫舍.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A48CA424B3794C001CA490 /* 198_打家劫舍.cpp */; };
 		85A48CA724B38932001CA490 /* 213_打家劫舍 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A48CA624B38932001CA490 /* 213_打家劫舍 II.cpp */; };
@@ -177,6 +179,8 @@
 		8596E2B225E409CD00509FBF /* 5 最长回文子串.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "5 最长回文子串.cpp"; sourceTree = "<group>"; };
 		85A2D0A925ED3FBC000F7D0C /* 17 电话号码的字母组合.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "17 电话号码的字母组合.cpp"; sourceTree = "<group>"; };
 		85A2D0AD25EE94A5000F7D0C /* 46 全排列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "46 全排列.cpp"; sourceTree = "<group>"; };
+		85A2D0B025EFBD50000F7D0C /* 22 括号生成.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "22 括号生成.cpp"; sourceTree = "<group>"; };
+		85A2D0B325EFC5BF000F7D0C /* 113 路径总和 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "113 路径总和 II.cpp"; sourceTree = "<group>"; };
 		85A48CA224B375ED001CA490 /* 70_爬楼梯.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "70_爬楼梯.cpp"; sourceTree = "<group>"; };
 		85A48CA424B3794C001CA490 /* 198_打家劫舍.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "198_打家劫舍.cpp"; sourceTree = "<group>"; };
 		85A48CA624B38932001CA490 /* 213_打家劫舍 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "213_打家劫舍 II.cpp"; sourceTree = "<group>"; };
@@ -370,6 +374,8 @@
 			children = (
 				85A2D0A925ED3FBC000F7D0C /* 17 电话号码的字母组合.cpp */,
 				85A2D0AD25EE94A5000F7D0C /* 46 全排列.cpp */,
+				85A2D0B025EFBD50000F7D0C /* 22 括号生成.cpp */,
+				85A2D0B325EFC5BF000F7D0C /* 113 路径总和 II.cpp */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -451,6 +457,7 @@
 				1442F1F32477E2EC0076C484 /* 155_最小栈.cpp in Sources */,
 				140745D12472CAF5008602BC /* 86_分隔链表.cpp in Sources */,
 				14315D6325D8229000FC0B16 /* 75 颜色分类.cpp in Sources */,
+				85A2D0B125EFBD50000F7D0C /* 22 括号生成.cpp in Sources */,
 				144B983324420542003B5364 /* main.cpp in Sources */,
 				8576847A248FD2A900B0EC39 /* 572_另一个树的子树.cpp in Sources */,
 				14DF4B1824C4346D00769F04 /* 108. 将有序数组转换为二叉搜索树.cpp in Sources */,
@@ -500,6 +507,7 @@
 				14315D8325DA7B6300FC0B16 /* 239 滑动窗口最大值.cpp in Sources */,
 				85C8B9E625E7F385001F69F6 /* 99 恢复二叉搜索树.cpp in Sources */,
 				14DCE27924B9B0090067EB9D /* 1235_规划兼职工作.cpp in Sources */,
+				85A2D0B425EFC5BF000F7D0C /* 113 路径总和 II.cpp in Sources */,
 				144B983E24420E91003B5364 /* 75_颜色分类.cpp in Sources */,
 				14FE466425E2446C00546429 /* 剑指 Offer 47 礼物的最大价值.cpp in Sources */,
 				1498F0BC24A89B9700F10081 /* 72_编辑距离.cpp in Sources */,
