@@ -69,6 +69,8 @@
 		85768478248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85768477248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp */; };
 		8576847A248FD2A900B0EC39 /* 572_另一个树的子树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85768479248FD2A900B0EC39 /* 572_另一个树的子树.cpp */; };
 		8576847C24913BB400B0EC39 /* 242_有效的字母异位词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8576847B24913BB400B0EC39 /* 242_有效的字母异位词.cpp */; };
+		85771A1125FE504800264333 /* 283 移动零.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85771A1025FE504800264333 /* 283 移动零.cpp */; };
+		85771A1425FE576E00264333 /* 15 三数之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85771A1325FE576E00264333 /* 15 三数之和.cpp */; };
 		857E1E3B24E9962300A8F8C9 /* 146_LRU缓存机制.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 857E1E3A24E9962300A8F8C9 /* 146_LRU缓存机制.cpp */; };
 		858FEA4424D1CD9300436891 /* 15_三数之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858FEA4324D1CD9300436891 /* 15_三数之和.cpp */; };
 		858FEA4624D1D64B00436891 /* 50_Pow(x, n).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858FEA4524D1D64B00436891 /* 50_Pow(x, n).cpp */; };
@@ -171,6 +173,8 @@
 		85768477248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题 01_09_ 字符串轮转.cpp"; sourceTree = "<group>"; };
 		85768479248FD2A900B0EC39 /* 572_另一个树的子树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "572_另一个树的子树.cpp"; sourceTree = "<group>"; };
 		8576847B24913BB400B0EC39 /* 242_有效的字母异位词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "242_有效的字母异位词.cpp"; sourceTree = "<group>"; };
+		85771A1025FE504800264333 /* 283 移动零.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "283 移动零.cpp"; sourceTree = "<group>"; };
+		85771A1325FE576E00264333 /* 15 三数之和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15 三数之和.cpp"; sourceTree = "<group>"; };
 		857E1E3A24E9962300A8F8C9 /* 146_LRU缓存机制.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "146_LRU缓存机制.cpp"; sourceTree = "<group>"; };
 		858FEA4324D1CD9300436891 /* 15_三数之和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "15_三数之和.cpp"; sourceTree = "<group>"; };
 		858FEA4524D1D64B00436891 /* 50_Pow(x, n).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "50_Pow(x, n).cpp"; sourceTree = "<group>"; };
@@ -293,6 +297,8 @@
 				14315D6225D8229000FC0B16 /* 75 颜色分类.cpp */,
 				14315D6525D8E49800FC0B16 /* 面试题 16 16  部分排序.cpp */,
 				14315D6825D8F34200FC0B16 /* 977 有序数组的平方.cpp */,
+				85771A1025FE504800264333 /* 283 移动零.cpp */,
+				85771A1325FE576E00264333 /* 15 三数之和.cpp */,
 			);
 			path = "数组";
 			sourceTree = "<group>";
@@ -500,9 +506,11 @@
 				14E4986324CA9B7400C4A465 /* 22_括号生成.cpp in Sources */,
 				85A2D0AA25ED3FBC000F7D0C /* 17 电话号码的字母组合.cpp in Sources */,
 				14EC53E8247C1DAF00B65186 /* 239_滑动窗口最大值.cpp in Sources */,
+				85771A1125FE504800264333 /* 283 移动零.cpp in Sources */,
 				858FEA4624D1D64B00436891 /* 50_Pow(x, n).cpp in Sources */,
 				1495B4C9246C2D6700F95169 /* 2_两数相加.cpp in Sources */,
 				14DCDDC824B0AE9F002E9BBA /* 300_最长上升子序列.cpp in Sources */,
+				85771A1425FE576E00264333 /* 15 三数之和.cpp in Sources */,
 				8590495C24E4375000959443 /* 54_螺旋矩阵.cpp in Sources */,
 				14315D8325DA7B6300FC0B16 /* 239 滑动窗口最大值.cpp in Sources */,
 				85C8B9E625E7F385001F69F6 /* 99 恢复二叉搜索树.cpp in Sources */,

@@ -1,14 +1,12 @@
 //
-//  main.cpp
+//  15 三数之和.cpp
 //  Algorithm
 //
-//  Created by zack on 2020/4/11.
-//  Copyright © 2020 zack. All rights reserved.
+//  Created by 熊章哲 on 2021/3/14.
+//  Copyright © 2021 zack. All rights reserved.
 //
 
-#include <iostream>
-#include <string>
-#include <map>
+#include <stdio.h>
 #include <vector>
 
 using namespace std;
@@ -25,7 +23,7 @@ public:
         
         int maxIndex = (int)nums.size()-3;
         for (int i = 0; i <= maxIndex; i++) {
-            if (i >0 && nums[i-1] == nums[i]) {
+            if (i > 0 && nums[i-1] == nums[i]) {
                 continue;
             }
             
@@ -35,8 +33,12 @@ public:
             while (l < r) {
                 if (nums[l]+nums[r] == remain) {
                     result.push_back({nums[i], nums[l], nums[r]});
+                    while(l<r && nums[l]==nums[l+1])l++;
+                    while(l<r && nums[r]==nums[r-1])r--;
+
                     l++;
-                } else if (nums[l]+nums[r] > remain) {
+                    r--;
+                } else if ((nums[l]+nums[r]) > remain) {
                     r--;
                 } else {
                     l++;
@@ -47,14 +49,3 @@ public:
         return result;
     }
 };
-
-
-int main(int argc, const char * argv[]) {
- 
-    Solution sol;
-    vector<int> vec = {0, 0, 0 ,0};
-    sol.threeSum(vec);
-
-    
-    return 0;
-}
