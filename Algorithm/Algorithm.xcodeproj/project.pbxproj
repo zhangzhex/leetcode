@@ -66,6 +66,7 @@
 		14FE466C25E2AF9A00546429 /* 72  编辑距离.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14FE466B25E2AF9A00546429 /* 72  编辑距离.cpp */; };
 		8509336724C5FF0200A1167F /* 46_全排列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8509336624C5FF0200A1167F /* 46_全排列.cpp */; };
 		854E987424ACE1AA001E980E /* 1143_最长公共子序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 854E987324ACE1AA001E980E /* 1143_最长公共子序列.cpp */; };
+		856C60A7260E3C2B00CD7161 /* 146 LRU 缓存机制.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856C60A6260E3C2B00CD7161 /* 146 LRU 缓存机制.cpp */; };
 		85768478248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85768477248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp */; };
 		8576847A248FD2A900B0EC39 /* 572_另一个树的子树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85768479248FD2A900B0EC39 /* 572_另一个树的子树.cpp */; };
 		8576847C24913BB400B0EC39 /* 242_有效的字母异位词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8576847B24913BB400B0EC39 /* 242_有效的字母异位词.cpp */; };
@@ -170,6 +171,7 @@
 		14FE466B25E2AF9A00546429 /* 72  编辑距离.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "72  编辑距离.cpp"; sourceTree = "<group>"; };
 		8509336624C5FF0200A1167F /* 46_全排列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "46_全排列.cpp"; sourceTree = "<group>"; };
 		854E987324ACE1AA001E980E /* 1143_最长公共子序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1143_最长公共子序列.cpp"; sourceTree = "<group>"; };
+		856C60A6260E3C2B00CD7161 /* 146 LRU 缓存机制.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "146 LRU 缓存机制.cpp"; sourceTree = "<group>"; };
 		85768477248FCE7B00B0EC39 /* 面试题 01_09_ 字符串轮转.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "面试题 01_09_ 字符串轮转.cpp"; sourceTree = "<group>"; };
 		85768479248FD2A900B0EC39 /* 572_另一个树的子树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "572_另一个树的子树.cpp"; sourceTree = "<group>"; };
 		8576847B24913BB400B0EC39 /* 242_有效的字母异位词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "242_有效的字母异位词.cpp"; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				14315D7D25DA6B3A00FC0B16 /* 栈_队列 */,
 				14315D6C25D8F96100FC0B16 /* 链表 */,
 				14315D6B25D8F95500FC0B16 /* 数组 */,
+				856C60A6260E3C2B00CD7161 /* 146 LRU 缓存机制.cpp */,
 			);
 			path = 2021;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				14315D6E25D90E7200FC0B16 /* 203 移除链表元素.cpp in Sources */,
 				1442F1F32477E2EC0076C484 /* 155_最小栈.cpp in Sources */,
 				140745D12472CAF5008602BC /* 86_分隔链表.cpp in Sources */,
+				856C60A7260E3C2B00CD7161 /* 146 LRU 缓存机制.cpp in Sources */,
 				14315D6325D8229000FC0B16 /* 75 颜色分类.cpp in Sources */,
 				85A2D0B125EFBD50000F7D0C /* 22 括号生成.cpp in Sources */,
 				144B983324420542003B5364 /* main.cpp in Sources */,

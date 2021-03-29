@@ -1,15 +1,13 @@
 //
-//  main.cpp
+//  146 LRU 缓存机制.cpp
 //  Algorithm
 //
-//  Created by zack on 2020/4/11.
-//  Copyright © 2020 zack. All rights reserved.
+//  Created by 熊章哲 on 2021/3/26.
+//  Copyright © 2021 zack. All rights reserved.
 //
 
-#include <iostream>
-#include <string>
+#include <stdio.h>
 #include <map>
-#include <vector>
 
 using namespace std;
 
@@ -42,7 +40,6 @@ class LRUCache {
         Node *nextNode = first->next;
         nextNode->pre = node;
         node->next = nextNode;
-        node->pre = first;
         first->next = node;
     }
     
@@ -92,14 +89,9 @@ public:
     }
 };
 
-
-int main(int argc, const char * argv[]) {
- 
-    LRUCache cache = LRUCache(1);
-    
-    cache.put(2, 1);
-    cache.get(2);
-
-    
-    return 0;
-}
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */
