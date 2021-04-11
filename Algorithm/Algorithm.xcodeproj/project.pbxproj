@@ -86,6 +86,7 @@
 		85A48CA524B3794C001CA490 /* 198_打家劫舍.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A48CA424B3794C001CA490 /* 198_打家劫舍.cpp */; };
 		85A48CA724B38932001CA490 /* 213_打家劫舍 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A48CA624B38932001CA490 /* 213_打家劫舍 II.cpp */; };
 		85A90A1224AF814D00E12E40 /* 53_最大子序和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A90A1124AF814D00E12E40 /* 53_最大子序和.cpp */; };
+		85B815B426233DBC00F6B4E6 /* 剑指 Offer 55 - II 平衡二叉树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85B815B326233DBC00F6B4E6 /* 剑指 Offer 55 - II 平衡二叉树.cpp */; };
 		85BCD9272497D1750021A47D /* 151_翻转字符串里的单词.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BCD9262497D1750021A47D /* 151_翻转字符串里的单词.cpp */; };
 		85C8B9E225E6A544001F69F6 /* 236 二叉树的最近公共祖先.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85C8B9E125E6A544001F69F6 /* 236 二叉树的最近公共祖先.cpp */; };
 		85C8B9E625E7F385001F69F6 /* 99 恢复二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85C8B9E525E7F385001F69F6 /* 99 恢复二叉搜索树.cpp */; };
@@ -191,6 +192,7 @@
 		85A48CA424B3794C001CA490 /* 198_打家劫舍.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "198_打家劫舍.cpp"; sourceTree = "<group>"; };
 		85A48CA624B38932001CA490 /* 213_打家劫舍 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "213_打家劫舍 II.cpp"; sourceTree = "<group>"; };
 		85A90A1124AF814D00E12E40 /* 53_最大子序和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "53_最大子序和.cpp"; sourceTree = "<group>"; };
+		85B815B326233DBC00F6B4E6 /* 剑指 Offer 55 - II 平衡二叉树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "剑指 Offer 55 - II 平衡二叉树.cpp"; sourceTree = "<group>"; };
 		85BCD9262497D1750021A47D /* 151_翻转字符串里的单词.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "151_翻转字符串里的单词.cpp"; sourceTree = "<group>"; };
 		85C8B9E125E6A544001F69F6 /* 236 二叉树的最近公共祖先.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "236 二叉树的最近公共祖先.cpp"; sourceTree = "<group>"; };
 		85C8B9E525E7F385001F69F6 /* 99 恢复二叉搜索树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "99 恢复二叉搜索树.cpp"; sourceTree = "<group>"; };
@@ -394,6 +396,7 @@
 			children = (
 				85C8B9E125E6A544001F69F6 /* 236 二叉树的最近公共祖先.cpp */,
 				85C8B9E525E7F385001F69F6 /* 99 恢复二叉搜索树.cpp */,
+				85B815B326233DBC00F6B4E6 /* 剑指 Offer 55 - II 平衡二叉树.cpp */,
 			);
 			path = "二叉树";
 			sourceTree = "<group>";
@@ -527,6 +530,7 @@
 				85F7EAE424B4CB50008B2991 /* 63_不同路径 II.cpp in Sources */,
 				85A48CA324B375ED001CA490 /* 70_爬楼梯.cpp in Sources */,
 				14315D8725DABBF900FC0B16 /* 654 最大二叉树.cpp in Sources */,
+				85B815B426233DBC00F6B4E6 /* 剑指 Offer 55 - II 平衡二叉树.cpp in Sources */,
 				14315D6925D8F34200FC0B16 /* 977 有序数组的平方.cpp in Sources */,
 				854E987424ACE1AA001E980E /* 1143_最长公共子序列.cpp in Sources */,
 				857E1E3B24E9962300A8F8C9 /* 146_LRU缓存机制.cpp in Sources */,
