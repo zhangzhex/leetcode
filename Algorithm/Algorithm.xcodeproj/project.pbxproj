@@ -93,6 +93,7 @@
 		85CA54F2249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85CA54F1249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp */; };
 		85D9FF5224CDDBD400A4C00A /* 283_移动零.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D9FF5124CDDBD400A4C00A /* 283_移动零.cpp */; };
 		85D9FF5424CDE38100A4C00A /* 1_两数之和.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85D9FF5324CDE38100A4C00A /* 1_两数之和.cpp */; };
+		85E6CF0D262890AA0016C392 /* 61 旋转链表.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85E6CF0C262890AA0016C392 /* 61 旋转链表.cpp */; };
 		85EA1E9D24BCB6EC00E46E14 /* 99_恢复二叉搜索树.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85EA1E9C24BCB6EC00E46E14 /* 99_恢复二叉搜索树.cpp */; };
 		85F7EAE224B4C72C008B2991 /* 674_最长连续递增序列.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F7EAE124B4C72C008B2991 /* 674_最长连续递增序列.cpp */; };
 		85F7EAE424B4CB50008B2991 /* 63_不同路径 II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85F7EAE324B4CB50008B2991 /* 63_不同路径 II.cpp */; };
@@ -199,6 +200,7 @@
 		85CA54F1249FA89D006E2232 /* 121_买卖股票的最佳时机.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "121_买卖股票的最佳时机.cpp"; sourceTree = "<group>"; };
 		85D9FF5124CDDBD400A4C00A /* 283_移动零.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "283_移动零.cpp"; sourceTree = "<group>"; };
 		85D9FF5324CDE38100A4C00A /* 1_两数之和.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1_两数之和.cpp"; sourceTree = "<group>"; };
+		85E6CF0C262890AA0016C392 /* 61 旋转链表.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "61 旋转链表.cpp"; sourceTree = "<group>"; };
 		85EA1E9C24BCB6EC00E46E14 /* 99_恢复二叉搜索树.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "99_恢复二叉搜索树.cpp"; sourceTree = "<group>"; };
 		85F7EAE124B4C72C008B2991 /* 674_最长连续递增序列.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "674_最长连续递增序列.cpp"; sourceTree = "<group>"; };
 		85F7EAE324B4CB50008B2991 /* 63_不同路径 II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "63_不同路径 II.cpp"; sourceTree = "<group>"; };
@@ -316,6 +318,7 @@
 				14315D7425D9199E00FC0B16 /* 160 相交链表.cpp */,
 				14315D7725D967E900FC0B16 /* 86 分隔链表.cpp */,
 				14315D7A25D96CB200FC0B16 /* 234 回文链表.cpp */,
+				85E6CF0C262890AA0016C392 /* 61 旋转链表.cpp */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -503,6 +506,7 @@
 				85F7EAE224B4C72C008B2991 /* 674_最长连续递增序列.cpp in Sources */,
 				8596E2B325E409CD00509FBF /* 5 最长回文子串.cpp in Sources */,
 				14DF4B1124C2C9E500769F04 /* 98_验证二叉搜索树.cpp in Sources */,
+				85E6CF0D262890AA0016C392 /* 61 旋转链表.cpp in Sources */,
 				14DF4B0F24C2C0FF00769F04 /* 94_二叉树的中序遍历.cpp in Sources */,
 				14DF4B1E24C49E4800769F04 /* 17_电话号码的字母组合.cpp in Sources */,
 				14315D8A25DBBC2A00FC0B16 /* 739 每日温度.cpp in Sources */,

@@ -95,6 +95,8 @@ public:
 
 int main(int argc, const char * argv[]) {
  
+    int a = 12%10;
+    
     LRUCache cache = LRUCache(1);
     
     cache.put(2, 1);
